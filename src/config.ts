@@ -32,6 +32,34 @@ Do NOT use for wallet balances -- use wallet_get_portfolio instead. Do NOT use f
         },
         required: [],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "ENS name"
+            },
+            "address": {
+              "type": "string",
+              "description": "Resolved Ethereum address"
+            },
+            "avatar": {
+              "type": "string",
+              "description": "Avatar URL"
+            },
+            "direction": {
+              "type": "string",
+              "description": "Resolution direction (forward or reverse)"
+            },
+            "timestamp": {
+              "type": "string",
+              "description": "ISO 8601 timestamp"
+            }
+          },
+          "required": [
+            "direction"
+          ]
+        },
     },
   ],
 };
