@@ -1,1 +1,18 @@
-{"$schema":"https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json","name":"io.github.Br0ski777/ens-resolver","title":"ENS Resolver API","description":"Resolve ENS names to Ethereum addresses and reverse. x402 micropayment.","version":"1.0.0","websiteUrl":"https://github.com/Br0ski777/ens-resolver-x402","repository":{"url":"https://github.com/Br0ski777/ens-resolver-x402","source":"github"},"remotes":[{"type":"sse","url":"https://ens-resolver-x402-production.up.railway.app/mcp"}]}
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Br0ski777/ens-resolver",
+  "title": "ENS Resolver API",
+  "description": "Resolve ENS names to Ethereum addresses and reverse. x402 micropayment.",
+  "version": "1.0.1",
+  "websiteUrl": "https://github.com/Br0ski777/ens-resolver-x402",
+  "repository": {
+    "url": "https://github.com/Br0ski777/ens-resolver-x402",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://ens-resolver-x402-production.up.railway.app/mcp"
+    }
+  ]
+}
