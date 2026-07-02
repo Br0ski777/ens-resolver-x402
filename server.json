@@ -3,7 +3,7 @@
   "name": "io.github.Br0ski777/ens-resolver",
   "title": "ENS Resolver API",
   "description": "Resolve ENS names to Ethereum addresses and reverse. x402 micropayment.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "websiteUrl": "https://github.com/Br0ski777/ens-resolver-x402",
   "repository": {
     "url": "https://github.com/Br0ski777/ens-resolver-x402",
