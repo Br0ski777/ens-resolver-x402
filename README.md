@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `crypto_resolve_ens` | POST | `/api/resolve` | $0.002 | Resolve ENS name to Ethereum address or reverse-resolve address to ENS name |
+| `crypto_resolve_ens` | POST | `/api/resolve` | $0.005 | Resolve ENS name to Ethereum address or reverse-resolve address to ENS name |
 
 ### `crypto_resolve_ens`
 
