@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/resolve",
-      price: "$0.002",
+      price: "$0.005",
       description: "Resolve ENS name to Ethereum address or reverse-resolve address to ENS name",
       toolName: "crypto_resolve_ens",
       toolDescription: `Use this when you need to resolve an ENS name to an Ethereum address, or reverse-resolve an address to its ENS name. Returns resolution data in JSON.
